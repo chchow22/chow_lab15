@@ -1,3 +1,76 @@
+body {
+  background-color: aqua;
+}
+
 h1 {
-  color: silver;
+  color: purple;
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  width: 100%;
+  text-align: center;
+}
+
+form {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  margin-top: 15px;
+  height: 30px;
+  width: 154px;
+  padding-left: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  height: 40px;
+  width: 120px;
+  background-color: orange;
+  border-radius: 6px;
+  color: purple;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.linkContainer {
+  width: 30%;
+  margin: 0 auto;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+a {
+  display: inline-block;
+  width: 40%;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a:first-child {
+  background-color: purple;
+  color: white;
+}
+.story {
+  margin: 0 auto;
+  font-size: 32px;
+  width: 80%;
+  color: black;
+  background-image: url(ocean1.jpg);
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 20px;
+
 }
